@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0573fc11-4bf0-4634-a9d2-cec50700e690")
+	(paper "A4")
+	(title_block
+		(company "Elnady Electronics")
+	)
+	(lib_symbols)
+)
