@@ -432,6 +432,14 @@
     [
       "a7532601-762e-4194-a2ad-d0f5bd4ece50",
       "POWER"
+    ],
+    [
+      "3cd776e5-d1a1-4d4a-b4bc-651d6a2cd193",
+      "Attenuators"
+    ],
+    [
+      "28a673b4-8f7b-4886-95df-910320f45ea1",
+      "ADC_Filters"
     ]
   ],
   "text_variables": {}
