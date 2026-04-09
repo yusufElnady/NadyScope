@@ -8,4 +8,16 @@
 		(company "Elnady Electronics")
 	)
 	(lib_symbols)
+	(text "Power Section"
+		(exclude_from_sim no)
+		(at 56.134 22.606 0)
+		(effects
+			(font
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+			)
+		)
+		(uuid "cfd6d2eb-d4dd-4a2b-9285-2bb85b9bffad")
+	)
 )

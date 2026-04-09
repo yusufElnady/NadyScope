@@ -8,8 +8,281 @@
 		(company "Elnady Electronics")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 27.94 96.52)
+		(end 55.88 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f64ee5b-4e30-4289-8643-e5dbd8aa571a)
+	)
+	(text "A USB-powered oscilloscope with a web-based interface and an\nintegrated AI assistant(TBD).\n\nFeatures:\n- 1 Analog input (up to 26 volts)\n- 4 Analog outputs (up to 25 mA per channel)\n- 1 isolated I2C input"
+		(exclude_from_sim no)
+		(at 24.384 47.752 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "21e46e3b-c69c-4b29-87e5-8e072e8a0399")
+	)
+	(text "TBD:\n- Power circuit\n- Power budget diagram\n- System block diagram\n- Maybe an SPI isolator"
+		(exclude_from_sim no)
+		(at 30.226 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5cfe1d1e-76e6-4a2d-ab95-97f11410bd50")
+	)
+	(text "NadyScope"
+		(exclude_from_sim no)
+		(at 22.098 20.574 0)
+		(effects
+			(font
+				(size 10 10)
+				(thickness 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8e9521d6-a8c4-4429-8ff5-c298fe37d3bf")
+	)
+	(junction
+		(at 121.92 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a25bbc0-3e35-4e4a-aeed-17aad7d390a7")
+	)
+	(junction
+		(at 119.38 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8847bd7-0d3f-4918-a7ab-52ae436a0869")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 165.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b6cc89-d474-4bc2-87fc-04de96d0cfdc")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f381ee4-6923-4f9b-98d2-b328f19e8a13")
+	)
+	(wire
+		(pts
+			(xy 156.21 102.87) (xy 156.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237d0648-5f4b-47fc-ba66-574c69e57d73")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f2f1e0-a3fe-47ae-bd1f-fa2363855a07")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 119.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e090be8-8e7f-465e-8c88-2794571f79ff")
+	)
+	(wire
+		(pts
+			(xy 121.92 116.84) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2f17c8-bc09-4847-8521-a966250a2412")
+	)
+	(wire
+		(pts
+			(xy 152.4 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5028deb3-5f29-4e8a-8659-bc42b30a1bd1")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bd1f56-f761-4887-8ed4-f44ed8a640b9")
+	)
+	(wire
+		(pts
+			(xy 121.92 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ca52ea-b05b-47c3-b541-1da12821123a")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea5c78f-4173-4ed7-95fb-bd5458498f31")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cc0052-b22b-475a-9f47-8c890f37d81d")
+	)
+	(wire
+		(pts
+			(xy 114.3 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93dc85e8-8b5d-4840-a250-7d85b9289d88")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bddde3a-2729-4423-8652-343ada3e9822")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba95d1ff-7928-42f6-8abb-9e77a4f0be45")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbde66ef-2736-40d7-a8eb-46e0c8b456ba")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5e6179-4c8e-40f4-8f7e-beeb4c655c64")
+	)
+	(wire
+		(pts
+			(xy 152.4 92.71) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d218379f-cdca-4a9d-bf95-31b0fa4634e8")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38a6d1b-b3d4-4ae1-87a2-6864762680a1")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e27f18-6a29-454f-aba3-428483a57635")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee296a26-6621-43e6-8e3a-ac5394ca33c1")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5fdacdd-ab33-4710-a60b-4b8751838c8f")
+	)
 	(sheet
-		(at 76.2 76.2)
+		(at 88.9 72.39)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +298,7 @@
 		)
 		(uuid "1b72d40f-f387-447e-822a-04789696d01d")
 		(property "Sheetname" "DAC"
-			(at 76.2 75.4884 0)
+			(at 88.9 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,12 +307,62 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 76.2 102.1846 0)
+			(at 88.9 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DAC_SDA" bidirectional
+			(at 114.3 76.2 0)
+			(uuid "851ece68-8666-4768-bfd6-e8951fd8387d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SCL" input
+			(at 114.3 78.74 0)
+			(uuid "8414efb2-a720-469f-ab3f-659f6ef86641")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_LDAC" input
+			(at 114.3 88.9 0)
+			(uuid "e1f0186f-ea50-4155-a908-cfa124346834")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_MCU" input
+			(at 114.3 83.82 0)
+			(uuid "f6aa3164-801e-45b4-9c27-bb7734a4b671")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4dB_EN" output
+			(at 114.3 92.71 0)
+			(uuid "a83b6ba8-2645-4c4c-a6ab-7e65c59a3fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -51,7 +374,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 38.1)
+		(at 165.1 72.39)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67,7 +390,7 @@
 		)
 		(uuid "34aa89fc-41cb-4285-a98d-3f26cd383eea")
 		(property "Sheetname" "ADC"
-			(at 114.3 37.3884 0)
+			(at 165.1 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +399,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 114.3 64.0846 0)
+			(at 165.1 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,7 +408,7 @@
 			)
 		)
 		(pin "4dB_EN" input
-			(at 114.3 58.42 180)
+			(at 165.1 95.25 180)
 			(uuid "c003d0f2-e672-411c-9dfd-f926b1d6f029")
 			(effects
 				(font
@@ -95,7 +418,7 @@
 			)
 		)
 		(pin "14dB_EN" input
-			(at 114.3 60.96 180)
+			(at 165.1 92.71 180)
 			(uuid "1bd68609-074c-4f0d-9de6-8d07debf980e")
 			(effects
 				(font
@@ -105,7 +428,7 @@
 			)
 		)
 		(pin "ADC_CSn" input
-			(at 114.3 49.53 180)
+			(at 165.1 83.82 180)
 			(uuid "82aceba1-3784-485d-a718-85d42b7c318e")
 			(effects
 				(font
@@ -115,7 +438,7 @@
 			)
 		)
 		(pin "ADC_SCLK" input
-			(at 114.3 46.99 180)
+			(at 165.1 81.28 180)
 			(uuid "ebfdbe79-fbb3-4557-a6fe-30b73851b34e")
 			(effects
 				(font
@@ -125,7 +448,7 @@
 			)
 		)
 		(pin "ADC_SDI" input
-			(at 114.3 44.45 180)
+			(at 165.1 78.74 180)
 			(uuid "8cb4c18c-ae39-4c05-8b58-4c81963c06a3")
 			(effects
 				(font
@@ -135,8 +458,18 @@
 			)
 		)
 		(pin "ADC_SDO" output
-			(at 114.3 41.91 180)
+			(at 165.1 76.2 180)
 			(uuid "907f7179-f5b3-47d1-85fc-33448e770ef5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ADC" output
+			(at 165.1 88.9 180)
+			(uuid "e64283f7-52eb-462f-8792-902e1242441b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +486,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 76.2)
+		(at 165.1 110.49)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -169,7 +502,7 @@
 		)
 		(uuid "a7532601-762e-4194-a2ad-d0f5bd4ece50")
 		(property "Sheetname" "POWER"
-			(at 152.4 75.4884 0)
+			(at 165.1 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,7 +511,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 152.4 102.1846 0)
+			(at 165.1 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,13 +528,12 @@
 		)
 	)
 	(sheet
-		(at 38.1 38.1)
+		(at 88.9 110.49)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -211,7 +543,7 @@
 		)
 		(uuid "cc8fe6f8-9873-4eb7-95a5-eb129be5968d")
 		(property "Sheetname" "LOGIC_ANALYZER"
-			(at 38.1 37.3884 0)
+			(at 88.9 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,12 +552,32 @@
 			)
 		)
 		(property "Sheetfile" "LOGIC_ANALYZER.kicad_sch"
-			(at 38.1 64.0846 0)
+			(at 88.9 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DAC_SCL" output
+			(at 114.3 116.84 0)
+			(uuid "024554fe-237f-4537-bd31-d966b8181934")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SDA" bidirectional
+			(at 114.3 114.3 0)
+			(uuid "96d5cc2b-cf26-43d6-a782-9b0566213e97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -237,7 +589,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 38.1)
+		(at 127 72.39)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -253,7 +605,7 @@
 		)
 		(uuid "f0b6941f-10e7-4982-bf52-9e94023a051f")
 		(property "Sheetname" "MCU"
-			(at 76.2 37.3884 0)
+			(at 127 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -262,12 +614,112 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 76.2 64.0846 0)
+			(at 127 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADC_CSn" output
+			(at 152.4 83.82 0)
+			(uuid "e73c70e5-35ec-4639-97e2-ef60d36696b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SDA" bidirectional
+			(at 127 76.2 180)
+			(uuid "dae8b9ad-42cd-4e6f-b162-68d5f8f077a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_SCLK" output
+			(at 152.4 81.28 0)
+			(uuid "80a49362-f5e6-47f8-b2be-bc19b4294db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SDO" input
+			(at 152.4 76.2 0)
+			(uuid "8040f4e8-f78c-42e0-bb69-1b7f8cb78550")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_LDAC" output
+			(at 127 88.9 180)
+			(uuid "5122221d-2d8c-4cec-be30-968f2f8c5c91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_SDI" output
+			(at 152.4 78.74 0)
+			(uuid "87331412-898b-4295-83a1-58d01bc5b289")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SCL" output
+			(at 127 78.74 180)
+			(uuid "0629a597-b49b-4a44-8cc6-e2793c2a3c2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_DAC" output
+			(at 127 83.82 180)
+			(uuid "aed304a0-495f-4044-bcc3-3dbc17e7a023")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "14dB_EN" output
+			(at 152.4 92.71 0)
+			(uuid "a472b756-26fc-4f92-8ec2-f80f52c51bb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_ADC" input
+			(at 152.4 88.9 0)
+			(uuid "915fcd75-e720-4530-a587-ace40a2c62a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
