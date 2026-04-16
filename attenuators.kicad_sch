@@ -2524,72 +2524,6 @@
 		(uuid "c281d6b2-e295-4d5f-a1f6-f9bb5d64e8ec")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0075f75d-da58-42e7-b2a2-9910c7e3abce")
-		(property "Reference" "#PWR0302"
-			(at 158.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RLY_VCC"
-			(at 154.686 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"RLY_VCC\""
-			(at 158.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "217e49b9-292d-416b-afc7-8e261d103e51")
-		)
-		(instances
-			(project "NadyScope"
-				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/34aa89fc-41cb-4285-a98d-3f26cd383eea/3cd776e5-d1a1-4d4a-b4bc-651d6a2cd193"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "FTR-B3GA4.5Z-B10_1")
 		(lib_id "FTR-B3GA4_5Z-B10:FTR-B3GA4.5Z-B10")
 		(at 175.26 60.96 90)
@@ -2616,7 +2550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FTRB3GA45ZB10"
+		(property "Footprint" "FTR-B3GA4.5Z-B10:FTRB3GA45ZB10"
 			(at 270.18 87.63 0)
 			(effects
 				(font
@@ -2712,6 +2646,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTR-B3GA4.5Z-B10"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2820,6 +2763,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8691b484-921d-4fbe-a8a5-b50bfc7ca3cc")
 		)
@@ -2830,6 +2782,72 @@
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/34aa89fc-41cb-4285-a98d-3f26cd383eea/3cd776e5-d1a1-4d4a-b4bc-651d6a2cd193"
 					(reference "D302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 158.75 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d7b30a7-15bc-4e7e-a618-259cdfb1ae7c")
+		(property "Reference" "#PWR0701"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "USB_VDD"
+			(at 158.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"USB_VDD\""
+			(at 158.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6b747a3-b78a-496a-a9aa-752fbd6cf073")
+		)
+		(instances
+			(project "NadyScope"
+				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/34aa89fc-41cb-4285-a98d-3f26cd383eea/3cd776e5-d1a1-4d4a-b4bc-651d6a2cd193"
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -2862,7 +2880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.2648 109.22 0)
 			(effects
 				(font
@@ -2881,6 +2899,15 @@
 			)
 		)
 		(property "Description" "10pF 0603"
+			(at 189.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FCC0603N100J500CT"
 			(at 189.23 113.03 0)
 			(effects
 				(font
@@ -2930,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 146.558 90)
 			(effects
 				(font
@@ -2950,6 +2977,15 @@
 		)
 		(property "Description" "500R 0603"
 			(at 163.83 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD07500RL"
+			(at 163.83 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FTRB3GA45ZB10"
+		(property "Footprint" "FTR-B3GA4.5Z-B10:FTRB3GA45ZB10"
 			(at 193.98 88.9 0)
 			(effects
 				(font
@@ -3095,6 +3131,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTR-B3GA4.5Z-B10"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3269,6 +3314,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 82.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53b10be1-8dad-46d3-85bb-efc1b48e0b61")
 		)
@@ -3310,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.63 146.558 90)
 			(effects
 				(font
@@ -3330,6 +3384,15 @@
 		)
 		(property "Description" "500R 0603"
 			(at 87.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD07500RL"
+			(at 87.63 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.3348 116.84 0)
 			(effects
 				(font
@@ -3399,6 +3462,15 @@
 			)
 		)
 		(property "Description" "50pF 0603"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603JRNPO9BN510"
 			(at 114.3 113.03 0)
 			(effects
 				(font
@@ -3580,7 +3652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.1 103.378 90)
 			(effects
 				(font
@@ -3600,6 +3672,15 @@
 		)
 		(property "Description" "370K 0603"
 			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ARG03BTC3653"
+			(at 165.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,6 +3779,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BC817"
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "8da11987-9023-4671-8760-2e9184070f2c")
 		)
@@ -3743,7 +3833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.91 106.9848 0)
 			(effects
 				(font
@@ -3770,6 +3860,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603N180J500CT"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b869290f-2ce5-482a-b9fd-76fdde298fd8")
 		)
@@ -3780,72 +3879,6 @@
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/34aa89fc-41cb-4285-a98d-3f26cd383eea/3cd776e5-d1a1-4d4a-b4bc-651d6a2cd193"
 					(reference "C704")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 82.55 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0c112c2-2755-48e9-bdee-05c7dd12cb91")
-		(property "Reference" "#PWR0301"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RLY_VCC"
-			(at 78.486 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"RLY_VCC\""
-			(at 82.55 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "500fa357-6e62-4990-b7a0-62316a13349f")
-		)
-		(instances
-			(project "NadyScope"
-				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/34aa89fc-41cb-4285-a98d-3f26cd383eea/3cd776e5-d1a1-4d4a-b4bc-651d6a2cd193"
-					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -3945,7 +3978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.022 113.03 90)
 			(effects
 				(font
@@ -3964,6 +3997,15 @@
 			)
 		)
 		(property "Description" "630K 0603"
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ARG03BTC6493"
 			(at 177.8 113.03 0)
 			(effects
 				(font
@@ -4015,7 +4057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 113.03 90)
 			(effects
 				(font
@@ -4034,6 +4076,15 @@
 			)
 		)
 		(property "Description" "200K 0603"
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA3AEB204V"
 			(at 101.6 113.03 0)
 			(effects
 				(font
@@ -4084,7 +4135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.9 105.7148 0)
 			(effects
 				(font
@@ -4111,6 +4162,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "FCC0603N100J500CT"
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40de6a14-eaaf-4d73-8730-f4863766216d")
 		)
@@ -4121,6 +4181,72 @@
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/34aa89fc-41cb-4285-a98d-3f26cd383eea/3cd776e5-d1a1-4d4a-b4bc-651d6a2cd193"
 					(reference "C701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e04a1b97-09ed-4502-8c25-1d1bada82365")
+		(property "Reference" "#PWR0702"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "USB_VDD"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"USB_VDD\""
+			(at 82.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e0f6ed1-971c-43a5-8ab4-d69fdb4d2149")
+		)
+		(instances
+			(project "NadyScope"
+				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/34aa89fc-41cb-4285-a98d-3f26cd383eea/3cd776e5-d1a1-4d4a-b4bc-651d6a2cd193"
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -4202,6 +4328,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BC817"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "40abd627-4354-4960-ae94-b28858622c78")
 		)
@@ -4246,7 +4381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.09 103.378 90)
 			(effects
 				(font
@@ -4266,6 +4401,15 @@
 		)
 		(property "Description" "800K 0603"
 			(at 85.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HoARG0603-1/10W-820KR-0.1%-TCR25"
+			(at 85.09 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1072,6 +1072,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1366,6 +1491,10 @@
 		(uuid "f44d0fe7-0e38-4ddd-9609-a66a6b9b417b")
 	)
 	(no_connect
+		(at 120.65 95.25)
+		(uuid "85f32ba5-ae90-40dd-b8d5-2bfadaae51b5")
+	)
+	(no_connect
 		(at 85.09 95.25)
 		(uuid "980d29e4-fb97-4a0e-9320-a6631a6f32e0")
 	)
@@ -1601,16 +1730,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 95.25) (xy 124.46 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7958f2-b652-4979-88ae-f3991784c3d4")
-	)
-	(wire
-		(pts
 			(xy 29.21 101.6) (xy 35.56 101.6)
 		)
 		(stroke
@@ -1813,19 +1932,6 @@
 		)
 		(uuid "cc67298d-7d1d-4c06-9616-1ab094bfecfb")
 	)
-	(hierarchical_label "4dB_EN"
-		(shape output)
-		(at 124.46 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "ff72986a-6ffe-464d-8aef-5630e3ab5b6d")
-	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 233.68 101.6 0)
@@ -1851,7 +1957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DOSIN-801-0083:CONN4_DOSIN-801_DOS"
 			(at 233.68 101.6 0)
 			(effects
 				(font
@@ -1870,6 +1976,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 233.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DOSIN-801-0083"
 			(at 233.68 101.6 0)
 			(effects
 				(font
@@ -2256,7 +2371,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "33cd3e2e-0b9a-435c-8520-7d36c8736b77")
 		(property "Reference" "J407"
@@ -2277,7 +2392,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -2346,7 +2461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 23.8252 97.79 0)
 			(effects
 				(font
@@ -2365,6 +2480,15 @@
 			)
 		)
 		(property "Description" "100nF 0603"
+			(at 22.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603B104M250CT"
 			(at 22.86 93.98 0)
 			(effects
 				(font
@@ -2396,7 +2520,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7e5f2e67-bcbe-46db-ace8-beb0077eb927")
 		(property "Reference" "J403"
@@ -2417,7 +2541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 203.2 95.25 0)
 			(effects
 				(font
@@ -2484,7 +2608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DOSIN-801-0083:CONN4_DOSIN-801_DOS"
 			(at 233.68 80.01 0)
 			(effects
 				(font
@@ -2511,6 +2635,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "DOSIN-801-0083"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdcaad71-7048-4ce9-8206-11b311da9672")
 		)
@@ -2521,72 +2654,6 @@
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d"
 					(reference "J401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ef5d87d-aa13-4425-b5b9-917ae3b37ef0")
-		(property "Reference" "#PWR0402"
-			(at 102.87 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AVDD"
-			(at 102.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AVDD\""
-			(at 102.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c3a16e3-f75b-4ad1-a54b-0fb394cdc305")
-		)
-		(instances
-			(project "NadyScope"
-				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d"
-					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -2619,7 +2686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.5252 97.79 0)
 			(effects
 				(font
@@ -2638,6 +2705,15 @@
 			)
 		)
 		(property "Description" "1uF 0603"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MP8NNNC"
 			(at 35.56 93.98 0)
 			(effects
 				(font
@@ -2669,7 +2745,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c4f581ae-e46a-43df-98d7-894525ca1c03")
 		(property "Reference" "J406"
@@ -2690,7 +2766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 203.2 81.28 0)
 			(effects
 				(font
@@ -2931,6 +3007,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a3e7c2-b5bf-44bf-ac9c-c59e235e15f9")
+		(property "Reference" "#PWR0402"
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AVDD\""
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9534806d-86f9-46f6-82cd-dd3e8a83138b")
+		)
+		(instances
+			(project "NadyScope"
+				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d"
+					(reference "#PWR0402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 203.2 87.63 0)
 		(mirror y)
@@ -2938,7 +3080,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eb34d716-354d-46aa-8435-29908b6d5444")
 		(property "Reference" "J402"
@@ -2959,7 +3101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 203.2 87.63 0)
 			(effects
 				(font

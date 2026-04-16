@@ -4807,7 +4807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 125.73 0)
 			(effects
 				(font
@@ -4834,6 +4834,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CGA0603X7R122K500JT"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f7f47ff-1ab4-48ff-af8c-ea790ff1eb58")
 		)
@@ -4851,15 +4860,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 154.94 91.44 0)
+		(at 154.94 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "04286f37-2099-4da6-bca8-07dee6dd051c")
+		(uuid "04a7eb6a-9e46-49a0-b29c-ccd0f5834e8b")
 		(property "Reference" "C907"
-			(at 158.75 90.1699 0)
+			(at 158.75 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,8 +4876,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.1nF"
-			(at 158.75 92.7099 0)
+		(property "Value" "1.2nF"
+			(at 158.75 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,8 +4885,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 155.9052 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 91.44 0)
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,8 +4903,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.1nF 0603"
-			(at 154.94 91.44 0)
+		(property "Description" "1.2nF 0603"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA0603X7R122K500JT"
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,10 +4922,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a01db99a-e261-4494-a36c-b065ae3c4e4f")
+			(uuid "e8f2ae95-a8c2-4395-9f45-e12c8abbcf6c")
 		)
 		(pin "1"
-			(uuid "d64b5ea8-eff5-49e6-99cb-4da0caeed363")
+			(uuid "a25741a6-ff9d-4bd1-89e5-e464f7984946")
 		)
 		(instances
 			(project "NadyScope"
@@ -4944,7 +4962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -4971,6 +4989,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "WI0603LD470KST-HF"
+			(at 163.83 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73d79210-5cca-49c9-b9b5-a9c6a75a5d17")
 		)
@@ -4981,6 +5008,84 @@
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
 					(reference "L903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "158b147e-0fd7-4ef2-bbcc-0b8224875be6")
+		(property "Reference" "C903"
+			(at 158.75 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2nF"
+			(at 158.75 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.2nF 0603"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA0603X7R122K500JT"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a326c05-dc83-4bad-8fd7-fd11396575a2")
+		)
+		(pin "1"
+			(uuid "fd457938-0b88-43f6-a7eb-a786bdbb3055")
+		)
+		(instances
+			(project "NadyScope"
+				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
+					(reference "C903")
 					(unit 1)
 				)
 			)
@@ -5014,7 +5119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 125.73 0)
 			(effects
 				(font
@@ -5033,6 +5138,15 @@
 			)
 		)
 		(property "Description" "470pF 0603"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FCC0603B471K500CT"
 			(at 190.5 121.92 0)
 			(effects
 				(font
@@ -5082,7 +5196,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 181.61 24.13 0)
 			(effects
 				(font
@@ -5102,6 +5216,15 @@
 		)
 		(property "Description" "39uH 0603"
 			(at 181.61 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLI2012F-390KT"
+			(at 181.61 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5339,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -5236,6 +5359,15 @@
 		)
 		(property "Description" "47uH 0603"
 			(at 163.83 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WI0603LD470KST-HF"
+			(at 163.83 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.248 91.44 90)
 			(effects
 				(font
@@ -5313,6 +5445,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTFR0603B200RP9"
+			(at 204.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1afce35b-1e07-4b48-8c68-02f5d8e10db4")
 		)
@@ -5323,6 +5464,84 @@
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
 					(reference "R902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ccf6605-57c4-40d3-9df8-a35e4b9303f5")
+		(property "Reference" "C904"
+			(at 158.75 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2nF"
+			(at 158.75 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.2nF 0603"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA0603X7R122K500JT"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74025861-ae62-480f-80bd-042188fde2a3")
+		)
+		(pin "1"
+			(uuid "17317429-e6e4-4279-8fbb-614ad1e70838")
+		)
+		(instances
+			(project "NadyScope"
+				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
+					(reference "C904")
 					(unit 1)
 				)
 			)
@@ -5356,7 +5575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 34.29 0)
 			(effects
 				(font
@@ -5375,6 +5594,15 @@
 			)
 		)
 		(property "Description" "470pF 0603"
+			(at 190.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FCC0603B471K500CT"
 			(at 190.5 30.48 0)
 			(effects
 				(font
@@ -5424,7 +5652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 163.83 85.09 0)
 			(effects
 				(font
@@ -5444,6 +5672,15 @@
 		)
 		(property "Description" "47uH 0603"
 			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WI0603LD470KST-HF"
+			(at 163.83 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -5512,6 +5749,15 @@
 		)
 		(property "Description" "47uH 0603"
 			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WI0603LD470KST-HF"
+			(at 163.83 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 64.77 0)
 			(effects
 				(font
@@ -5581,6 +5827,15 @@
 			)
 		)
 		(property "Description" "470pF 0603"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FCC0603B471K500CT"
 			(at 190.5 60.96 0)
 			(effects
 				(font
@@ -5671,6 +5926,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 154.94 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a04959a-b33f-4c29-b5ec-432378944262")
+		(property "Reference" "C908"
+			(at 158.75 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2nF"
+			(at 158.75 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.2nF 0603"
+			(at 154.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA0603X7R122K500JT"
+			(at 154.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4b36ec1-365a-433b-b025-77f1f5582971")
+		)
+		(pin "1"
+			(uuid "215792c4-ae43-4636-bf42-7825441226a6")
+		)
+		(instances
+			(project "NadyScope"
+				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
+					(reference "C908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 181.61 54.61 90)
 		(unit 1)
@@ -5696,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 181.61 54.61 0)
 			(effects
 				(font
@@ -5723,6 +6056,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MLI2012F-390KT"
+			(at 181.61 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90362b90-1215-4ea9-9c6f-5945898321a6")
 		)
@@ -5733,75 +6075,6 @@
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
 					(reference "L904")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 154.94 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "823062c1-b973-4e10-9d09-1a3eef85f9da")
-		(property "Reference" "C904"
-			(at 158.75 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.1nF"
-			(at 158.75 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.9052 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.1nF 0603"
-			(at 154.94 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67c80d79-b6b6-46d7-8dd2-5bc5254fa0ad")
-		)
-		(pin "1"
-			(uuid "b03ba896-6c43-4fa7-bc1f-171d89192121")
-		)
-		(instances
-			(project "NadyScope"
-				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
-					(reference "C904")
 					(unit 1)
 				)
 			)
@@ -5835,7 +6108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.248 121.92 90)
 			(effects
 				(font
@@ -5854,6 +6127,15 @@
 			)
 		)
 		(property "Description" "200R 0603"
+			(at 204.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTFR0603B200RP9"
 			(at 204.47 121.92 0)
 			(effects
 				(font
@@ -5903,7 +6185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 181.61 115.57 0)
 			(effects
 				(font
@@ -5923,6 +6205,15 @@
 		)
 		(property "Description" "39uH 0603"
 			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLI2012F-390KT"
+			(at 181.61 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 181.61 85.09 0)
 			(effects
 				(font
@@ -6057,6 +6348,15 @@
 		)
 		(property "Description" "39uH 0603"
 			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLI2012F-390KT"
+			(at 181.61 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 95.25 0)
 			(effects
 				(font
@@ -6125,6 +6425,15 @@
 			)
 		)
 		(property "Description" "1.2nF 0603"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA0603X7R122K500JT"
 			(at 172.72 91.44 0)
 			(effects
 				(font
@@ -6175,7 +6484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 34.29 0)
 			(effects
 				(font
@@ -6194,6 +6503,15 @@
 			)
 		)
 		(property "Description" "1.2nF 0603"
+			(at 172.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA0603X7R122K500JT"
 			(at 172.72 30.48 0)
 			(effects
 				(font
@@ -6245,7 +6563,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.248 30.48 90)
 			(effects
 				(font
@@ -6272,6 +6590,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTFR0603B200RP9"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4439eb55-47ef-4540-8549-0e86af8991f6")
 		)
@@ -6282,75 +6609,6 @@
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
 					(reference "R404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 154.94 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb773250-0720-4ff2-bb64-5ef0c83e29b6")
-		(property "Reference" "C908"
-			(at 158.75 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.1nF"
-			(at 158.75 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.9052 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.1nF 0603"
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a585646-b46e-4496-81df-bc50d2cdd5af")
-		)
-		(pin "1"
-			(uuid "42ffdd61-da68-4799-95e3-d5194e7a2370")
-		)
-		(instances
-			(project "NadyScope"
-				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
-					(reference "C908")
 					(unit 1)
 				)
 			)
@@ -6423,75 +6681,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 154.94 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d547e106-ebcd-4a5c-9ec3-7ef81a015786")
-		(property "Reference" "C903"
-			(at 158.75 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.1nF"
-			(at 158.75 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.9052 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.1nF 0603"
-			(at 154.94 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9c4088e-f002-4d68-89ea-4ef7abda25fb")
-		)
-		(pin "1"
-			(uuid "771a44c1-634f-4638-bed8-7744058100fd")
-		)
-		(instances
-			(project "NadyScope"
-				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28/1b72d40f-f387-447e-822a-04789696d01d/0036a626-200e-41d1-8e9c-4464e6fc75b5"
-					(reference "C903")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 204.47 60.96 180)
 		(unit 1)
@@ -6519,7 +6708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.248 60.96 90)
 			(effects
 				(font
@@ -6538,6 +6727,15 @@
 			)
 		)
 		(property "Description" "200R 0603"
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTFR0603B200RP9"
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -6589,7 +6787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 95.25 0)
 			(effects
 				(font
@@ -6608,6 +6806,15 @@
 			)
 		)
 		(property "Description" "470pF 0603"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FCC0603B471K500CT"
 			(at 190.5 91.44 0)
 			(effects
 				(font
@@ -6658,7 +6865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 64.77 0)
 			(effects
 				(font
@@ -6677,6 +6884,15 @@
 			)
 		)
 		(property "Description" "1.2nF 0603"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA0603X7R122K500JT"
 			(at 172.72 60.96 0)
 			(effects
 				(font

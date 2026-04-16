@@ -8,18 +8,6 @@
 		(company "Elnady Electronics")
 	)
 	(lib_symbols)
-	(rectangle
-		(start 27.94 96.52)
-		(end 55.88 107.95)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2f64ee5b-4e30-4289-8643-e5dbd8aa571a)
-	)
 	(text "A USB-powered oscilloscope with a web-based interface and an\nintegrated AI assistant(TBD).\n\nFeatures:\n- 1 Analog input (up to 26 volts)\n- 4 Analog outputs (up to 25 mA per channel)\n- 1 isolated I2C input"
 		(exclude_from_sim no)
 		(at 24.384 47.752 0)
@@ -32,19 +20,6 @@
 			(justify left)
 		)
 		(uuid "21e46e3b-c69c-4b29-87e5-8e072e8a0399")
-	)
-	(text "TBD:\n- Power circuit\n- Power budget diagram\n- System block diagram\n- Maybe an SPI isolator"
-		(exclude_from_sim no)
-		(at 30.226 102.362 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "5cfe1d1e-76e6-4a2d-ab95-97f11410bd50")
 	)
 	(text "NadyScope"
 		(exclude_from_sim no)
@@ -93,16 +68,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 102.87) (xy 156.21 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237d0648-5f4b-47fc-ba66-574c69e57d73")
-	)
-	(wire
-		(pts
 			(xy 152.4 78.74) (xy 165.1 78.74)
 		)
 		(stroke
@@ -140,16 +105,6 @@
 			(type default)
 		)
 		(uuid "5028deb3-5f29-4e8a-8659-bc42b30a1bd1")
-	)
-	(wire
-		(pts
-			(xy 156.21 95.25) (xy 165.1 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52bd1f56-f761-4887-8ed4-f44ed8a640b9")
 	)
 	(wire
 		(pts
@@ -193,26 +148,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 156.21 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bddde3a-2729-4423-8652-343ada3e9822")
-	)
-	(wire
-		(pts
-			(xy 116.84 92.71) (xy 116.84 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba95d1ff-7928-42f6-8abb-9e77a4f0be45")
-	)
-	(wire
-		(pts
 			(xy 152.4 88.9) (xy 165.1 88.9)
 		)
 		(stroke
@@ -220,26 +155,6 @@
 			(type default)
 		)
 		(uuid "bbde66ef-2736-40d7-a8eb-46e0c8b456ba")
-	)
-	(wire
-		(pts
-			(xy 114.3 92.71) (xy 116.84 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce5e6179-4c8e-40f4-8f7e-beeb4c655c64")
-	)
-	(wire
-		(pts
-			(xy 152.4 92.71) (xy 165.1 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d218379f-cdca-4a9d-bf95-31b0fa4634e8")
 	)
 	(wire
 		(pts
@@ -355,16 +270,6 @@
 				(justify right)
 			)
 		)
-		(pin "4dB_EN" output
-			(at 114.3 92.71 0)
-			(uuid "a83b6ba8-2645-4c4c-a6ab-7e65c59a3fab")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "NadyScope"
 				(path "/eb93e2be-0074-48a1-b88c-5129bddcbd28"
@@ -405,26 +310,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "4dB_EN" input
-			(at 165.1 95.25 180)
-			(uuid "c003d0f2-e672-411c-9dfd-f926b1d6f029")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "14dB_EN" input
-			(at 165.1 92.71 180)
-			(uuid "1bd68609-074c-4f0d-9de6-8d07debf980e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "ADC_CSn" input
@@ -700,16 +585,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "14dB_EN" output
-			(at 152.4 92.71 0)
-			(uuid "a472b756-26fc-4f92-8ec2-f80f52c51bb3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "MCU_ADC" input
