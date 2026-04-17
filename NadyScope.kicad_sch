@@ -8,9 +8,9 @@
 		(company "Elnady Electronics")
 	)
 	(lib_symbols)
-	(text "A USB-powered oscilloscope with a web-based interface and an\nintegrated AI assistant(TBD).\n\nFeatures:\n- 1 Analog input (up to 26 volts)\n- 4 Analog outputs (up to 25 mA per channel)\n- 1 isolated I2C input"
+	(text "A USB-powered oscilloscope/function generator/logic analyzer\nwith a web-based interface and an integrated AI assistant(TBD).\n"
 		(exclude_from_sim no)
-		(at 24.384 47.752 0)
+		(at 24.384 34.036 0)
 		(effects
 			(font
 				(size 3 3)
